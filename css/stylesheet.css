@@ -50,3 +50,51 @@
 .card-registration .select-arrow {
   top: 13px;
 }
+
+
+/* History page */
+
+.historyTxt{
+  color: #7895B2;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.historyDesc{
+  font-size: 1rem;
+  color: #AEBDCA;
+  text-align: center;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+
+.carouselLayout{
+  margin: auto;
+  width: 60%;
+
+}
+
+.container{
+  position: relative;
+text-align: center;
+color: #F5EFE6;
+}
+
+.textBox{
+  position: absolute;
+  background-color: #AEBDCA;
+  padding: 5px;
+  bottom: 8px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+}
+
+.carouselContainer{
+  background-color: #F5EFE6;;
+}
