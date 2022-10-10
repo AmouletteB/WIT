@@ -66,28 +66,95 @@
   z-index: 2; 
 }
 
-  .newsletter .content h3 {
+.newsletter .content h3 {
   color: #7895B2;
   margin-bottom: 30px; 
 }
 
-  .newsletter .content .form-control {
+.newsletter .content .form-control {
   height: 50px;
   border-color: #ffffff;
   border-radius:0;
-  }
+}
 
-  .newsletter .content.form-control:focus {
+.newsletter .content.form-control:focus {
   box-shadow: none;
   border: 2px solid #7895B2;
-  }
+}
 
-  .newsletter .content .btn {
+.newsletter .content .btn {
   min-height: 50px; 
   border-radius:0;
   background: #7895B2;
   color: #fff;
   font-weight:600;
-  }
+}
 
+.max-width {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.container-fluid {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.intro {
+  margin: 40px 0 40px 0;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 300;
+}
+
+p{
+  margin: 0 0 10px;
+}
+
+h2 {
+  font-size: 22px;
+  line-height: 30px;
+  font-weight: normal;
+  font-weight: 700;
+}
+
+.historyTxt{
+  color: #7895B2;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.historyDesc{
+  font-size: 1rem;
+  color: #AEBDCA;
+  text-align: center;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
+}
+
+.carouselLayout{
+  margin: auto;
+  width: 60%;
+
+}
+
+.container{
+  position: relative;
+text-align: center;
+color: #F5EFE6;
+}
+
+.textBox{
+  position: absolute;
+  background-color: #AEBDCA;
+  padding: 5px;
+  bottom: 8px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.carouselContainer{
+  background-color: #F5EFE6;;
+}
 
