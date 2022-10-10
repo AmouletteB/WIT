@@ -39,7 +39,7 @@
 
 /* REGISTRATION FORM IN JOIN US */
 .gradient-custom {
-  background-color: #e8dfca;
+  background-color: #f2f2f2;;
 }
 .card-registration .select-input.form-control[readonly]:not([disabled]) {
   font-size: 1rem;
@@ -51,5 +51,43 @@
   top: 13px;
 }
 
-/* Carousel */
+
+/* Sign up */
+.newsletter {
+  padding: 80px 0;
+  background: #f2f2f2;
+  }
+  
+  .newsletter .content {
+  max-width: 650px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 2; 
+}
+
+  .newsletter .content h2 {
+  color: #7895B2;
+  margin-bottom: 40px; 
+}
+
+  .newsletter .content .form-control {
+  height: 50px;
+  border-color: #ffffff;
+  border-radius:0;
+  }
+
+  .newsletter .content.form-control:focus {
+  box-shadow: none;
+  border: 2px solid #7895B2;
+  }
+
+  .newsletter .content .btn {
+  min-height: 50px; 
+  border-radius:0;
+  background: #7895B2;
+  color: #fff;
+  font-weight:600;
+  }
+
 
