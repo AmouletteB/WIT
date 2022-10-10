@@ -111,12 +111,6 @@ p{
   margin: 0 0 10px;
 }
 
-h2 {
-  font-size: 22px;
-  line-height: 30px;
-  font-weight: normal;
-  font-weight: 700;
-}
 
 .historyTxt{
   color: #7895B2;
@@ -136,7 +130,6 @@ h2 {
 .carouselLayout{
   margin: auto;
   width: 60%;
-
 }
 
 .container{
