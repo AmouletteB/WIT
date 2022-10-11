@@ -1,3 +1,5 @@
+
+/* video header */
 .video-background-holder {
   position: relative;
   background-color: #fff;
@@ -37,43 +39,24 @@
   z-index: 1;
 }
 
-/* REGISTRATION FORM IN JOIN US */
-.gradient-custom {
-  background-color: #7895B2;
-}
-.card-registration .select-input.form-control[readonly]:not([disabled]) {
-  font-size: 1rem;
-  line-height: 2.15;
-  padding-left: 0.75em;
-  padding-right: 0.75em;
-}
-.card-registration .select-arrow {
-  top: 13px;
-}
-
 
 /* Sign up newsletter */
 .newsletter {
-  padding: 80px 0;
-  background: #f2f2f2;
-  }
+  padding: 40px 0;
+  background: #F5EFE6;
+}
   
-  .newsletter .content {
-  max-width: 650px;
+.newsletter .content {
+  max-width: 450px;
   margin: 0 auto;
   text-align: center;
   position: relative;
   z-index: 2; 
 }
 
-.newsletter .content h3 {
-  color: #7895B2;
-  margin-bottom: 30px; 
-}
-
 .newsletter .content .form-control {
-  height: 50px;
-  border-color: #ffffff;
+  height: 40px;
+  border-color: #7895B2;
   border-radius:0;
 }
 
@@ -83,34 +66,14 @@
 }
 
 .newsletter .content .btn {
-  min-height: 50px; 
+  min-height: 40px; 
   border-radius:0;
   background: #7895B2;
   color: #fff;
   font-weight:600;
 }
 
-.max-width {
-  max-width: 1000px;
-  margin: 0 auto;
-}
-
-.container-fluid {
-  padding-right: 20px;
-  padding-left: 20px;
-}
-
-.intro {
-  margin: 40px 0 40px 0;
-  font-size: 20px;
-  line-height: 26px;
-  font-weight: 300;
-}
-
-p{
-  margin: 0 0 10px;
-}
-
+/* history carousel */
 
 .historyTxt{
   color: #7895B2;
@@ -130,12 +93,13 @@ p{
 .carouselLayout{
   margin: auto;
   width: 60%;
+
 }
 
 .container{
   position: relative;
-text-align: center;
-color: #F5EFE6;
+  text-align: center;
+  color: #F5EFE6;
 }
 
 .textBox{
@@ -147,7 +111,11 @@ color: #F5EFE6;
   transform: translate(-50%, -50%);
 }
 
+/* Centered text */
+.centered {
+  position: absolute;
+}
+
 .carouselContainer{
   background-color: #F5EFE6;;
 }
-
