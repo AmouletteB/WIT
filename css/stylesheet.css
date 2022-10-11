@@ -1,3 +1,5 @@
+
+/* video header */
 .video-background-holder {
   position: relative;
   background-color: #fff;
@@ -37,18 +39,73 @@
   z-index: 1;
 }
 
-/* REGISTRATION FORM IN JOIN US */
-.gradient-custom {
-  background-color: #e8dfca;
+#home{
+  background-color: #F5EFE6;
 }
-.card-registration .select-input.form-control[readonly]:not([disabled]) {
+/* Sign up newsletter */
+.newsletter {
+  padding: 40px 0;
+  background: #F5EFE6;
+}
+  
+.newsletter .content {
+  max-width: 450px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 2; 
+}
+
+.newsletter .content .form-control {
+  height: 40px;
+  border-color: #7895B2;
+  border-radius:0;
+}
+
+.newsletter .content.form-control:focus {
+  box-shadow: none;
+  border: 2px solid #7895B2;
+}
+
+.newsletter .content .btn {
+  min-height: 40px; 
+  border-radius:0;
+  background: #7895B2;
+  color: #fff;
+  font-weight:600;
+}
+
+#thankyoumessage {
+  display: none;
+}
+
+/* History page */
+.intro {
+  margin: 40px 200px 40px 200px;
+  text-align: justify;
+}
+
+/* history carousel */
+
+.historyTxt{
+  color: #7895B2;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.historyDesc{
   font-size: 1rem;
-  line-height: 2.15;
-  padding-left: 0.75em;
-  padding-right: 0.75em;
+  color: #AEBDCA;
+  text-align: center;
+  margin: auto;
+  width: 60%;
+  padding: 10px;
 }
-.card-registration .select-arrow {
-  top: 13px;
+
+.carouselLayout{
+  margin: auto;
+  width: 60%;
+
 }
 
 /*TESTIMONIALS PAGE*/
@@ -63,3 +120,27 @@
   height: 50vh;
   display: flex;
 }
+.historyContainer{
+  position: relative;
+  text-align: center;
+  color: #F5EFE6;
+}
+
+.textBox{
+  position: absolute;
+  background-color: #AEBDCA;
+  padding: 5px;
+  bottom: 8px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+}
+
+.carouselContainer{
+  background-color: #F5EFE6;
+}
+
