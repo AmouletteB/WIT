@@ -75,6 +75,12 @@
   font-weight:600;
 }
 
+/* History page */
+.intro {
+  margin: 40px 200px 40px 200px;
+  text-align: justify;
+}
+
 /* history carousel */
 
 .historyTxt{
@@ -119,5 +125,6 @@
 }
 
 .carouselContainer{
-  background-color: #F5EFE6;;
+  background-color: #F5EFE6;
 }
+
