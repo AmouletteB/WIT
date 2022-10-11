@@ -1,8 +1,6 @@
-document.getElementById("signup").addEventListener("click", function(){
-    alert("Thank you!")
+document.getElementById("signup").addEventListener("click", function (event) {
+    event.preventDefault ();
+    document.getElementById("thankyoumessage").style.display = "block";
+    document.getElementById("signupform").style.display = "none";
 });
 
-function submit() {
-    let form = document.getElementById("form__submit");
-    form.submit();
-}

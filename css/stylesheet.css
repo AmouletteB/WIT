@@ -75,6 +75,10 @@
   font-weight:600;
 }
 
+#thankyoumessage {
+  display: none;
+}
+
 /* History page */
 .intro {
   margin: 40px 200px 40px 200px;
