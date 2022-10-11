@@ -39,7 +39,9 @@
   z-index: 1;
 }
 
-
+#home{
+  background-color: #F5EFE6;
+}
 /* Sign up newsletter */
 .newsletter {
   padding: 40px 0;
