@@ -108,6 +108,18 @@
 
 }
 
+/*TESTIMONIALS PAGE*/
+.img-testimonials {
+  display: flex;
+  object-fit: cover;
+  height: 22vh;
+}
+
+/*THANK YOU PAGE*/
+.fullheight{
+  height: 50vh;
+  display: flex;
+}
 .historyContainer{
   position: relative;
   text-align: center;
