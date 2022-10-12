@@ -152,12 +152,6 @@
   height: 22vh;
 }
 
-/*THANK YOU PAGE*/
-.fullheight{
-  height: 50vh;
-  display: flex;
-}
-
 
 /* Registration form */
 .gradient-custom {
@@ -179,8 +173,10 @@ h5 {
 }
 
 h3 {
-  color: #7895B2;
+  color: #AEBDCA;
+  
 }
+
 
 
 
