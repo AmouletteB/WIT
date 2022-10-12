@@ -42,6 +42,8 @@
 #home{
   background-color: #F5EFE6;
 }
+
+
 /* Sign up newsletter */
 .newsletter {
   padding: 40px 0;
@@ -108,19 +110,6 @@
 
 }
 
-/*TESTIMONIALS PAGE*/
-.img-testimonials {
-  display: flex;
-  object-fit: cover;
-  height: 22vh;
-}
-
-/*THANK YOU PAGE*/
-.fullheight{
-  height: 50vh;
-  display: flex;
-}
-
 .historyContainer{
   position: relative;
   text-align: center;
@@ -141,6 +130,36 @@
 }
 .carouselContainer{
   background-color: #F5EFE6;
+}
+
+
+/*TESTIMONIALS PAGE*/
+.img-testimonials {
+  display: flex;
+  object-fit: cover;
+  height: 22vh;
+}
+
+/*THANK YOU PAGE*/
+.fullheight{
+  height: 50vh;
+  display: flex;
+}
+
+
+/* Registration form */
+.gradient-custom {
+  background: #7895B2;
+}
+  
+.card-registration .select-input.form-control[readonly]:not([disabled]) {
+  font-size: 1rem;
+  line-height: 2.15;
+  padding-left: .75em;
+  padding-right: .75em;
+}
+  .card-registration .select-arrow {
+  top: 13px;
 }
 
 
