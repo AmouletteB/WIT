@@ -1,4 +1,8 @@
 
+*{
+  font-family: 'Roboto', sans-serif;
+}
+
 /* video header */
 .video-background-holder {
   position: relative;
@@ -81,14 +85,17 @@
   display: none;
 }
 
+/* submit form thank you */
 #welcome {
   display: none;
+  text-align: left;
+  font-size: 20px;
 }
 
 
 /* History page */
 .intro {
-  margin: 40px 200px 40px 200px;
+  margin: 40px 240px 40px 240px;
   text-align: justify;
 }
 
@@ -163,9 +170,18 @@
   padding-left: .75em;
   padding-right: .75em;
 }
-  .card-registration .select-arrow {
+.card-registration .select-arrow {
   top: 13px;
 }
+
+h5 {
+  color:#AEBDCA;
+}
+
+h3 {
+  color: #7895B2;
+}
+
 
 
 

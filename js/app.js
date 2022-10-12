@@ -8,6 +8,6 @@ document.getElementById("signup").addEventListener("click", function (event) {
 document.getElementById("signup").addEventListener("click", function (event) {
     event.preventDefault ();
     document.getElementById("welcome").style.display = "block";
-    document.getElementById("signupform").style.display = "none";
+    document.getElementById("signup").style.display = "none";
 });
 
