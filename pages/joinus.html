@@ -47,7 +47,7 @@
         <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
           <div class="card-body p-4 p-md-5">
             <h3 class="mb-4 pb-2 pb-md-0 mb-md-5">Registration form</h3>
-            <form>
+            <form id="submitform">
 
               <div class="row">
                 <div class="col-md-6 mb-4">
@@ -135,9 +135,10 @@
                 </div>
               </div>
 
-              <div class="mt-4 pt-2">
-                <input class="btn btn-primary btn-lg" type="submit" value="Submit" />
-              </div>
+              <span class="input-group-btn">
+              <button class="btn" id="submit" type="submit">submit</button>
+              </span>
+              <p id="welcome">welcome to the club!</p>
 
             </form>
           </div>

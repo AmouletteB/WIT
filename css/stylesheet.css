@@ -81,6 +81,11 @@
   display: none;
 }
 
+#welcome {
+  display: none;
+}
+
+
 /* History page */
 .intro {
   margin: 40px 200px 40px 200px;
